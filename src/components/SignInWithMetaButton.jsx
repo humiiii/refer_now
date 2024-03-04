@@ -6,7 +6,7 @@ const SignInWithMetaButton = () => {
       <div className="absolute bg-white p-1 top-0 text-[#0081fb]  left-0 m-1 rounded-sm">
         <FaMeta size={25} />
       </div>
-      <p className="ml-10 text-white">Sign in with Meta</p>
+      <p className="ml-10 text-white">Continue with Meta</p>
     </div>
   );
 };

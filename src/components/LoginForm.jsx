@@ -5,7 +5,7 @@ import SignInWithGoogleButton from "./SignInWithGoogleButton";
 import SignInWithMetaButton from "./SignInWithMetaButton";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
-const Form = () => {
+const LoginForm = () => {
   const [formData, setFormData] = useState({ username: "", password: "" });
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
@@ -121,4 +121,4 @@ const Form = () => {
     </form>
   );
 };
-export default Form;
+export default LoginForm;

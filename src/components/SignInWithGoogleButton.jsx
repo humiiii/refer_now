@@ -6,7 +6,7 @@ const SignInWithGoogleButton = () => {
       <div className="absolute bg-white p-1 top-0 left-0 m-1 rounded-sm">
         <FcGoogle size={25} />
       </div>
-      <p className="ml-10">Sign in with Google</p>
+      <p className="ml-10">Continue with Google</p>
     </div>
   );
 };
