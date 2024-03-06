@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaAsterisk } from "react-icons/fa";
-import SignInWithGoogleButton from "./SignInWithGoogleButton";
-import SignInWithMetaButton from "./SignInWithMetaButton";
+import SignInWithGoogleButton from "./components/SignInWithGoogleButton";
+import SignInWithMetaButton from "./components/SignInWithMetaButton";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const SignupForm = () => {
