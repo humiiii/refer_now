@@ -66,7 +66,7 @@ const SignupForm = () => {
       <div className="flex items-end gap-8">
         <MdAlternateEmail size={25} className="text-slate-600" />
         <input
-          type="text"
+          type="email"
           onChange={(e) => {
             setFormData({ ...formData, email: e.target.value });
           }}
